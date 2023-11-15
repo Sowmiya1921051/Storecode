@@ -7,6 +7,7 @@ import Register from './nav/Register.jsx'
 import Contact from './nav/Contact.jsx'
 import About from './nav/About.jsx'
 import Followers from './header/followers/Followers.jsx';
+import Program from './program/Program.jsx';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Followers/>
+      <Program/>
     </div>
   );
 }
