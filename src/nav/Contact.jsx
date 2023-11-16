@@ -39,6 +39,14 @@ function Contact() {
           </p>
         </div>
 
+        <div className="mb-4">
+        <h3 className="text-xl font-semibold mb-2" style={{ color: '#8B5CF6' }}>Social Media</h3>
+
+          <p className="text-sm">
+          Connect with us on social media to stay updated on the latest Storecode news, product highlights, and community stories.
+          </p>
+       
+        </div>
 
         <div className="mb-4">
           <h3 className="text-xl font-semibold mb-2" style={{ color: '#8B5CF6' }}>Visit Us</h3>
