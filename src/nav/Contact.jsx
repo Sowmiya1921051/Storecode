@@ -8,14 +8,14 @@ function Contact() {
   return (
     <div className="h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="container mx-auto p-6 bg-white rounded-md">
-        <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center">Contact Us</h2>
         <p className="text-sm mb-4">
           We're thrilled that you want to connect with us. At Storecode, your thoughts, questions, and feedback are the driving force behind our commitment to excellence.
           We're here to listen, assist, and engage with you. Choose your preferred way to reach out:
         </p>
 
         <div className="mb-4">
-        <h3 className="text-xl font-semibold mb-2" style={{ color: '#8B5CF6' }}>Contact Form</h3>
+        <h3 className="text-xl font-semibold mb-2 " style={{ color: '#8B5CF6' }}>Contact Form</h3>
 
           <p className="text-sm">
             Got a specific question or request? Fill out the form below, and we'll get back to you in no time. Your message is important to us, and we're dedicated to providing the answers and solutions you need.
