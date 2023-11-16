@@ -1,8 +1,12 @@
 import React from 'react';
 import bgImg from '../assets/bg-01.jpg';
+import Followers from '../followers/Followers';
+import Guide from '../guide/Guide';
+import Program from '../program/Program';
 
 const Home = () => {
   return (
+    <div>
     <div className="h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="text-black text-center bg-white p-16 rounded-md">
         <h1 className="text-4xl font-bold mb-10">Shop with Storecode</h1>
@@ -27,6 +31,10 @@ const Home = () => {
 
         </div>
       </div>
+      </div>
+          <Followers/>   
+          <Program/>
+          <Guide/>
     </div>
   );
 };

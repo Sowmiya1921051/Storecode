@@ -9,10 +9,10 @@ function Program() {
 //max-w-xl
     return (
         <div className="mx-auto p-4 text-center ">
-            <h1 className='p-14 text-2xl font-semibold'>Become a Guide at StoreCode</h1>
+            <h1 className='p-14 text-2xl font-semibold'>The Exclusive Partnership Program</h1>
 
-            <button className="bg-indigo-500 text-white px-4 py-2 rounded mt-4" onClick={toggleParagraph}>
-                {showParagraph ? 'Close' : 'View Details'}
+            <button className=" bg-gradient-to-r from-sky-500 via-purple-500 to-violet-500 text-white px-4 py-2 rounded " onClick={toggleParagraph}>
+                {showParagraph ? 'Close' : 'View More'}
             </button>
 
             {showParagraph && (
