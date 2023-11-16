@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 function Header() {
   return (
-    <div className='bg-purple-400 flex justify-between p-4 text-xl font-semibold text-white'>
+    <div className='bg-gradient-to-r from-sky-500 via-purple-500 to-violet-500 flex justify-between p-4 text-xl font-semibold text-white'>
       <div className="flex items-center space-x-2 overflow-x-auto">
         <img className='rounded-xl w-10 h-10' src={logo} alt="Logo" />
         <Link to='/'>STORECODE</Link>
